@@ -9,15 +9,16 @@ import Foundation.NSUUID
 import SwiftData
 
 @Model
-class Task {
+final class Task: Identifiable {
     // MARK: - Properties
 
-    @Attribute(.unique) let id = UUID()
-    @Attribute let name: String
+    @Attribute(.unique) let id: UUID
+    let name: String
 
     // MARK: - Lifecycle
 
     init(name: String) {
+        self.id = UUID()
         self.name = name
     }
 }
