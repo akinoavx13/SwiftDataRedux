@@ -7,26 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		524AC0AF2A3358EA00FF0723 /* SwiftDataReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AC0AE2A3358EA00FF0723 /* SwiftDataReduxApp.swift */; };
+		524AC0AF2A3358EA00FF0723 /* ReduxSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AC0AE2A3358EA00FF0723 /* ReduxSwiftUIApp.swift */; };
 		524AC0B12A3358EA00FF0723 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AC0B02A3358EA00FF0723 /* TasksView.swift */; };
 		524AC0B32A3358EB00FF0723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524AC0B22A3358EB00FF0723 /* Assets.xcassets */; };
 		524AC0B62A3358EB00FF0723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524AC0B52A3358EB00FF0723 /* Preview Assets.xcassets */; };
-		524AC0C02A3359F300FF0723 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524AC0BF2A3359F300FF0723 /* Task.swift */; };
-		52E25FAD2A336B9500FEC7F6 /* StateEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E25FAC2A336B9500FEC7F6 /* StateEnvironment.swift */; };
-		52E25FB02A3377DA00FEC7F6 /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E25FAF2A3377DA00FEC7F6 /* DataContainer.swift */; };
-		52E25FB22A337D3D00FEC7F6 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E25FB12A337D3D00FEC7F6 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		524AC0AB2A3358EA00FF0723 /* SwiftDataRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		524AC0AE2A3358EA00FF0723 /* SwiftDataReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataReduxApp.swift; sourceTree = "<group>"; };
+		524AC0AB2A3358EA00FF0723 /* ReduxSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524AC0AE2A3358EA00FF0723 /* ReduxSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxSwiftUIApp.swift; sourceTree = "<group>"; };
 		524AC0B02A3358EA00FF0723 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		524AC0B22A3358EB00FF0723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524AC0B52A3358EB00FF0723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		524AC0BF2A3359F300FF0723 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		52E25FAC2A336B9500FEC7F6 /* StateEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateEnvironment.swift; sourceTree = "<group>"; };
-		52E25FAF2A3377DA00FEC7F6 /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
-		52E25FB12A337D3D00FEC7F6 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +35,7 @@
 		524AC0A22A3358EA00FF0723 = {
 			isa = PBXGroup;
 			children = (
-				524AC0AD2A3358EA00FF0723 /* SwiftDataRedux */,
+				524AC0AD2A3358EA00FF0723 /* ReduxSwiftUI */,
 				524AC0AC2A3358EA00FF0723 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,21 +43,19 @@
 		524AC0AC2A3358EA00FF0723 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				524AC0AB2A3358EA00FF0723 /* SwiftDataRedux.app */,
+				524AC0AB2A3358EA00FF0723 /* ReduxSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		524AC0AD2A3358EA00FF0723 /* SwiftDataRedux */ = {
+		524AC0AD2A3358EA00FF0723 /* ReduxSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				524AC0AE2A3358EA00FF0723 /* SwiftDataReduxApp.swift */,
-				52E25FAA2A336B7D00FEC7F6 /* Core */,
-				524AC0BE2A3359E900FF0723 /* Models */,
+				524AC0AE2A3358EA00FF0723 /* ReduxSwiftUIApp.swift */,
 				524AC0BD2A33596C00FF0723 /* Views */,
 				524AC0BC2A33591F00FF0723 /* Resources */,
 			);
-			path = SwiftDataRedux;
+			path = ReduxSwiftUI;
 			sourceTree = "<group>";
 		};
 		524AC0B42A3358EB00FF0723 /* Preview Content */ = {
@@ -93,46 +83,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		524AC0BE2A3359E900FF0723 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				524AC0BF2A3359F300FF0723 /* Task.swift */,
-				52E25FB12A337D3D00FEC7F6 /* AppState.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		52E25FAA2A336B7D00FEC7F6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				52E25FAE2A3377C300FEC7F6 /* ViewModifiers */,
-				52E25FAB2A336B8A00FEC7F6 /* Environments */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		52E25FAB2A336B8A00FEC7F6 /* Environments */ = {
-			isa = PBXGroup;
-			children = (
-				52E25FAC2A336B9500FEC7F6 /* StateEnvironment.swift */,
-			);
-			path = Environments;
-			sourceTree = "<group>";
-		};
-		52E25FAE2A3377C300FEC7F6 /* ViewModifiers */ = {
-			isa = PBXGroup;
-			children = (
-				52E25FAF2A3377DA00FEC7F6 /* DataContainer.swift */,
-			);
-			path = ViewModifiers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		524AC0AA2A3358EA00FF0723 /* SwiftDataRedux */ = {
+		524AC0AA2A3358EA00FF0723 /* ReduxSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 524AC0B92A3358EB00FF0723 /* Build configuration list for PBXNativeTarget "SwiftDataRedux" */;
+			buildConfigurationList = 524AC0B92A3358EB00FF0723 /* Build configuration list for PBXNativeTarget "ReduxSwiftUI" */;
 			buildPhases = (
 				524AC0A72A3358EA00FF0723 /* Sources */,
 				524AC0A82A3358EA00FF0723 /* Frameworks */,
@@ -142,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftDataRedux;
+			name = ReduxSwiftUI;
 			productName = SwiftDataRedux;
-			productReference = 524AC0AB2A3358EA00FF0723 /* SwiftDataRedux.app */;
+			productReference = 524AC0AB2A3358EA00FF0723 /* ReduxSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 524AC0A62A3358EA00FF0723 /* Build configuration list for PBXProject "SwiftDataRedux" */;
+			buildConfigurationList = 524AC0A62A3358EA00FF0723 /* Build configuration list for PBXProject "ReduxSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				524AC0AA2A3358EA00FF0723 /* SwiftDataRedux */,
+				524AC0AA2A3358EA00FF0723 /* ReduxSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -198,11 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524AC0B12A3358EA00FF0723 /* TasksView.swift in Sources */,
-				524AC0C02A3359F300FF0723 /* Task.swift in Sources */,
-				52E25FAD2A336B9500FEC7F6 /* StateEnvironment.swift in Sources */,
-				52E25FB22A337D3D00FEC7F6 /* AppState.swift in Sources */,
-				524AC0AF2A3358EA00FF0723 /* SwiftDataReduxApp.swift in Sources */,
-				52E25FB02A3377DA00FEC7F6 /* DataContainer.swift in Sources */,
+				524AC0AF2A3358EA00FF0723 /* ReduxSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataRedux/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReduxSwiftUI/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -363,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataRedux/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReduxSwiftUI/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -387,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		524AC0A62A3358EA00FF0723 /* Build configuration list for PBXProject "SwiftDataRedux" */ = {
+		524AC0A62A3358EA00FF0723 /* Build configuration list for PBXProject "ReduxSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				524AC0B72A3358EB00FF0723 /* Debug */,
@@ -396,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		524AC0B92A3358EB00FF0723 /* Build configuration list for PBXNativeTarget "SwiftDataRedux" */ = {
+		524AC0B92A3358EB00FF0723 /* Build configuration list for PBXNativeTarget "ReduxSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				524AC0BA2A3358EB00FF0723 /* Debug */,
